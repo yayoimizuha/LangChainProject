@@ -1,0 +1,11 @@
+[project]
+name = "langchainproject"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=1.0",
+    "langchain-google-genai>=3.0",
+    "langchain-openai>=1.0",
+    "langchain-anthropic>=1.0"
+]
